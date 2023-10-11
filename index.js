@@ -3,9 +3,13 @@ const express = require('express');
 const app = express();
 const escapeHtml = require('escape-html');
 
+
+
+
 function checkUserName(userName){
   return userName === 'SEB' || userName === 'SNYK';
 }
+
 
 function formatUserName(userName){
   return userName.toUpperCase();
