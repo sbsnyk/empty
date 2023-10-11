@@ -10,6 +10,7 @@ function checkUserName(userName){
   return userName === 'SEB' || userName === 'SNYK';
 }
 
+
 function formatUserName(userName){
   return userName.toUpperCase();
 }
